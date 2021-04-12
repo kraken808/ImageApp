@@ -16,13 +16,13 @@
                 <rect key="frame" x="0.0" y="0.0" width="167" height="231"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mlV-mo-XpS">
-                        <rect key="frame" x="0.0" y="0.0" width="167" height="198"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mlV-mo-XpS">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="199.5"/>
                         <color key="backgroundColor" red="0.52156862749999999" green="0.53333333329999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5II-hL-Opi">
-                        <rect key="frame" x="12" y="206" width="141" height="16"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5II-hL-Opi">
+                        <rect key="frame" x="12" y="207.5" width="141" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>

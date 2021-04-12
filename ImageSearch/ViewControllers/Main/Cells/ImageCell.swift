@@ -9,12 +9,12 @@
 import UIKit
 import SDWebImage
 
-class ImageCell: UICollectionViewCell, CellDetail{
+final class ImageCell: UICollectionViewCell, CellDetail {
    
-    typealias T = Photos
+    typealias T = Picture
     
-    @IBOutlet weak var ImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet private weak var ImageView: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
     
     static var nibName: String {
         return "ImageCell"
@@ -26,13 +26,18 @@ class ImageCell: UICollectionViewCell, CellDetail{
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
     
-    func bind(data: Photos) {
-        guard let url = URL(string: data.img_src) else { return }
+    func bind(data: Picture) {
+        guard let url = URL(string: data.urls.regular) else { return }
         ImageView.sd_setImage(with: url, completed: nil)
-        titleLabel.text = data.camera.name
+        guard let title = data.description else {
+            guard let description = data.alt_description else { return }
+            titleLabel.text = description
+            return
+        }
+        titleLabel.text = title
       }
 
 }

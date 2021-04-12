@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED77FF1784DB276B2307D7BB /* Pods_ImageSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE3E4DAFAD2C62965F11B10 /* Pods_ImageSearch.framework */; };
 		FB754E332621CC9800FDC67B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E322621CC9800FDC67B /* AppDelegate.swift */; };
 		FB754E352621CC9800FDC67B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E342621CC9800FDC67B /* SceneDelegate.swift */; };
-		FB754E372621CC9800FDC67B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E362621CC9800FDC67B /* ViewController.swift */; };
+		FB754E372621CC9800FDC67B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E362621CC9800FDC67B /* MainViewController.swift */; };
 		FB754E3A2621CC9800FDC67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB754E382621CC9800FDC67B /* Main.storyboard */; };
 		FB754E3C2621CC9E00FDC67B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB754E3B2621CC9E00FDC67B /* Assets.xcassets */; };
 		FB754E3F2621CC9E00FDC67B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB754E3D2621CC9E00FDC67B /* LaunchScreen.storyboard */; };
+		FB754E482621CED600FDC67B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E472621CED600FDC67B /* MainViewModel.swift */; };
+		FB754E4B2621FB6900FDC67B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E4A2621FB6900FDC67B /* NetworkManager.swift */; };
+		FB754E4D2621FBCA00FDC67B /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E4C2621FBC900FDC67B /* RequestType.swift */; };
+		FB754E502621FBF200FDC67B /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E4E2621FBF200FDC67B /* StatusResponse.swift */; };
+		FB754E512621FBF200FDC67B /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E4F2621FBF200FDC67B /* APIError.swift */; };
+		FB754E542621FC3800FDC67B /* URLexstension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E532621FC3800FDC67B /* URLexstension.swift */; };
+		FB754E572622F89000FDC67B /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E562622F89000FDC67B /* Pictures.swift */; };
+		FB754E5B262306DD00FDC67B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E59262306DD00FDC67B /* ImageCell.swift */; };
+		FB754E5C262306DD00FDC67B /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB754E5A262306DD00FDC67B /* ImageCell.xib */; };
+		FB754E5E26230FE300FDC67B /* CellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB754E5D26230FE300FDC67B /* CellDetail.swift */; };
+		FB8E54E626238F4C00769A20 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E54E526238F4C00769A20 /* DetailViewController.swift */; };
+		FB8E54E826239CD900769A20 /* DetaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E54E726239CD900769A20 /* DetaiViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02D9CD34CE4493694E162EEA /* Pods-ImageSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearch.debug.xcconfig"; path = "Target Support Files/Pods-ImageSearch/Pods-ImageSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		1CE3E4DAFAD2C62965F11B10 /* Pods_ImageSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DCD9358CBB601CB9F645E2 /* Pods-ImageSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSearch.release.xcconfig"; path = "Target Support Files/Pods-ImageSearch/Pods-ImageSearch.release.xcconfig"; sourceTree = "<group>"; };
 		FB754E2F2621CC9800FDC67B /* ImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB754E322621CC9800FDC67B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB754E342621CC9800FDC67B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB754E362621CC9800FDC67B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB754E362621CC9800FDC67B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FB754E392621CC9800FDC67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB754E3B2621CC9E00FDC67B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB754E3E2621CC9E00FDC67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB754E402621CC9E00FDC67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB754E472621CED600FDC67B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FB754E4A2621FB6900FDC67B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FB754E4C2621FBC900FDC67B /* RequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		FB754E4E2621FBF200FDC67B /* StatusResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
+		FB754E4F2621FBF200FDC67B /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FB754E532621FC3800FDC67B /* URLexstension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLexstension.swift; sourceTree = "<group>"; };
+		FB754E562622F89000FDC67B /* Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
+		FB754E59262306DD00FDC67B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FB754E5A262306DD00FDC67B /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		FB754E5D26230FE300FDC67B /* CellDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetail.swift; sourceTree = "<group>"; };
+		FB8E54E526238F4C00769A20 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FB8E54E726239CD900769A20 /* DetaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaiViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED77FF1784DB276B2307D7BB /* Pods_ImageSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FCBB2FDF831B93D7F7D43A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE3E4DAFAD2C62965F11B10 /* Pods_ImageSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39BCBE02A4241FE08B92C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02D9CD34CE4493694E162EEA /* Pods-ImageSearch.debug.xcconfig */,
+				B0DCD9358CBB601CB9F645E2 /* Pods-ImageSearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB754E262621CC9800FDC67B = {
 			isa = PBXGroup;
 			children = (
 				FB754E312621CC9800FDC67B /* ImageSearch */,
 				FB754E302621CC9800FDC67B /* Products */,
+				F39BCBE02A4241FE08B92C1C /* Pods */,
+				3FCBB2FDF831B93D7F7D43A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,107 @@
 		FB754E312621CC9800FDC67B /* ImageSearch */ = {
 			isa = PBXGroup;
 			children = (
+				FB754E552622F88000FDC67B /* Models */,
+				FB754E462621CEB200FDC67B /* ViewControllers */,
+				FB8E54EA2623C91E00769A20 /* ViewModels */,
+				FB8E54E92623C8EC00769A20 /* Helpers */,
 				FB754E322621CC9800FDC67B /* AppDelegate.swift */,
 				FB754E342621CC9800FDC67B /* SceneDelegate.swift */,
-				FB754E362621CC9800FDC67B /* ViewController.swift */,
 				FB754E382621CC9800FDC67B /* Main.storyboard */,
 				FB754E3B2621CC9E00FDC67B /* Assets.xcassets */,
 				FB754E3D2621CC9E00FDC67B /* LaunchScreen.storyboard */,
 				FB754E402621CC9E00FDC67B /* Info.plist */,
 			);
 			path = ImageSearch;
+			sourceTree = "<group>";
+		};
+		FB754E462621CEB200FDC67B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E54E426238F1A00769A20 /* Detail */,
+				FBE6C910262355DC00C0FBAD /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB754E492621FB5500FDC67B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E4A2621FB6900FDC67B /* NetworkManager.swift */,
+				FB754E4C2621FBC900FDC67B /* RequestType.swift */,
+				FB754E4F2621FBF200FDC67B /* APIError.swift */,
+				FB754E4E2621FBF200FDC67B /* StatusResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FB754E522621FC1400FDC67B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E532621FC3800FDC67B /* URLexstension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB754E552622F88000FDC67B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E562622F89000FDC67B /* Pictures.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB754E582623066F00FDC67B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E59262306DD00FDC67B /* ImageCell.swift */,
+				FB754E5A262306DD00FDC67B /* ImageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FB754E5F2623186B00FDC67B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E5D26230FE300FDC67B /* CellDetail.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FB8E54E426238F1A00769A20 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E54E526238F4C00769A20 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB8E54E92623C8EC00769A20 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E492621FB5500FDC67B /* Network */,
+				FB754E522621FC1400FDC67B /* Extensions */,
+				FB754E5F2623186B00FDC67B /* Protocols */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FB8E54EA2623C91E00769A20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FB8E54E726239CD900769A20 /* DetaiViewModel.swift */,
+				FB754E472621CED600FDC67B /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FBE6C910262355DC00C0FBAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB754E362621CC9800FDC67B /* MainViewController.swift */,
+				FB754E582623066F00FDC67B /* Cells */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB754E432621CC9E00FDC67B /* Build configuration list for PBXNativeTarget "ImageSearch" */;
 			buildPhases = (
+				489E35E3E91513E100B511B3 /* [CP] Check Pods Manifest.lock */,
 				FB754E2B2621CC9800FDC67B /* Sources */,
 				FB754E2C2621CC9800FDC67B /* Frameworks */,
 				FB754E2D2621CC9800FDC67B /* Resources */,
+				204486D4E8E3443DDEFE54EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB754E3F2621CC9E00FDC67B /* LaunchScreen.storyboard in Resources */,
+				FB754E5C262306DD00FDC67B /* ImageCell.xib in Resources */,
 				FB754E3C2621CC9E00FDC67B /* Assets.xcassets in Resources */,
 				FB754E3A2621CC9800FDC67B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +276,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		204486D4E8E3443DDEFE54EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageSearch/Pods-ImageSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageSearch/Pods-ImageSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageSearch/Pods-ImageSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489E35E3E91513E100B511B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB754E2B2621CC9800FDC67B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB754E372621CC9800FDC67B /* ViewController.swift in Sources */,
+				FB8E54E626238F4C00769A20 /* DetailViewController.swift in Sources */,
+				FB754E372621CC9800FDC67B /* MainViewController.swift in Sources */,
 				FB754E332621CC9800FDC67B /* AppDelegate.swift in Sources */,
+				FB754E5B262306DD00FDC67B /* ImageCell.swift in Sources */,
+				FB8E54E826239CD900769A20 /* DetaiViewModel.swift in Sources */,
+				FB754E5E26230FE300FDC67B /* CellDetail.swift in Sources */,
+				FB754E4B2621FB6900FDC67B /* NetworkManager.swift in Sources */,
 				FB754E352621CC9800FDC67B /* SceneDelegate.swift in Sources */,
+				FB754E482621CED600FDC67B /* MainViewModel.swift in Sources */,
+				FB754E512621FBF200FDC67B /* APIError.swift in Sources */,
+				FB754E572622F89000FDC67B /* Pictures.swift in Sources */,
+				FB754E542621FC3800FDC67B /* URLexstension.swift in Sources */,
+				FB754E4D2621FBCA00FDC67B /* RequestType.swift in Sources */,
+				FB754E502621FBF200FDC67B /* StatusResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +478,7 @@
 		};
 		FB754E442621CC9E00FDC67B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D9CD34CE4493694E162EEA /* Pods-ImageSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +497,7 @@
 		};
 		FB754E452621CC9E00FDC67B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DCD9358CBB601CB9F645E2 /* Pods-ImageSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
