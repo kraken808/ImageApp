@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol CellDetail{
+protocol CellDetail {
     associatedtype T
     static var nibName: String { get }
     static var reuseIdentifier: String { get }

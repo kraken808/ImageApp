@@ -15,5 +15,4 @@ import Foundation
 
 struct StatusResponse: Decodable{
     var message: String
-
 }
